@@ -1,15 +1,89 @@
 @import url(./global.css);
 
 .formulario-pesquisa {
+  width: 500px;
+  height: 500px;
   background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 500px;
-  height: 400px;
-  gap: 1rem;
-  border-radius: 8px;
+  gap: 2rem;
+  border-radius: 10px;
   
 
+}
+
+/* CRIAR UM LIVRO */
+
+.formulario {
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+ .formulario h1, h3 {
+  margin-bottom: 20px;
+}
+
+
+
+.formulario form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formulario input {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.formulario input:focus {
+  border: 1px solid;
+  
+}
+
+.formulario textarea {
+  width: 200px;
+  height: 100px;
+
+}
+
+.formulario .btn {
+  margin-top: 10px;
+}
+
+
+/* BOTÕES */
+
+.btns {
+  display: flex;
+  gap: 20px;
+}
+
+.btn {
+  width: 100px;
+  padding: 8px;
+  font-size: .85rem;
+  transition: all 0.5s ease;
+  border: none;
+  border-radius: 8px;
+  
+}
+
+.btn:hover {
+  border: none;
+  border-radius: 8px;
+  background-color: #f1c168;
+  transition: all 0.5s ease;
 }
