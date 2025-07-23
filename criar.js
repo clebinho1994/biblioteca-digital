@@ -1,10 +1,10 @@
-const BASE_URL = "http://localhost:8080/api/livros";
+
 
 const livro = {
-  titulo: "Os três porquinhos",
-  categoria: "infantil",
-  autor: "desconhecido",
-  sinopse: "Os três porquinhos construiram suas casas, casa um de formas diferente."
+  titulo: "A trança do Careca",
+  categoria: "Funny",
+  autor: "Jim",
+  sinopse: "A trança do Careca OSOKOSAKOASKOSAKOKSA"
 };
 
 async function criarLivro(dadosLivro) {

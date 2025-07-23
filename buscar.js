@@ -1,4 +1,6 @@
-const BASE_URL = "http://localhost:8080/api/livros";
+
+
+
 
 async function buscarLivro(id) {
   try {
@@ -10,8 +12,12 @@ async function buscarLivro(id) {
     console.log(dados);
     return dados.id;
 
+    const btn = document.querySelector('.btn-busca');
+    const buscarId = document.querySelector('.id-busca');
+    console.log(btn);
+
   }catch(erro){
     console.error(erro)
   }
 } 
-buscarLivro(3);
+buscarLivro(1);

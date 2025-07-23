@@ -1,4 +1,3 @@
-const BASE_URL = "http://localhost:8080/api/livros";
 
 async function deletarLivro(id) {
   try {
@@ -16,4 +15,4 @@ async function deletarLivro(id) {
   }
 }
 
-deletarLivro(2);
+deletarLivro();

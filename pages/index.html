@@ -15,16 +15,16 @@
       <form action="GET">
 
         <label for="id">Pesquisar por ID:</label>
-        <input type="text" placeholder="id">
+        <input type="text" placeholder="id" class="id-busca">
 
       </form>
 
       <div class="btns" id="btns">
-        <button class="btn" onclick="window.location.href='criar.html'">Criar Livro</button>
+        <button class="btn btn-busca" onclick="window.location.href='criar.html'">Criar Livro</button>
         <button class="btn btn-buscar">Buscar</button>
       </div>
 
-      <section class="livros">
+      <section class="mostrar-livro">
         
       </section>
 
@@ -32,11 +32,11 @@
   </main>
 
 
-
-
-
-
- 
-  <script src="script.js"></script>
+  <script src="../config.js"></script>
+  <script src="../buscar.js"></script>
+  <script src="../criar.js"></script>
+  <script src="../listar.js"></script>
+  <script src="../delete.js"></script>
+  <script src="../atualizar.js"></script>
 </body>
 </html>
